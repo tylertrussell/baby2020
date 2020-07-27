@@ -9,3 +9,7 @@ body {
 h1 {
     font-family: 'Pacifico', cursive;
 }
+
+.times {
+    font-size: 18pt;
+}
