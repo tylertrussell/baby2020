@@ -4,12 +4,67 @@ body {
     background-color: rgb(255, 237, 243);
     text-align: center;
     font-family: 'Josefin Slab', serif;
+    font-size: 1.4em;
+}
+
+.content {
+    min-width: 20%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    top: -10%;
 }
 
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Sacramento', cursive;
+    font-size: 36pt;
+    margin: 0;
+}
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 30pt;
+}
+
+p {
+    font-size: 14pt;
+}
+
+.b {
+    font-weight: 700;
+}
+
+.spaced {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+#image {
+    margin: auto;
+    z-index: -99;
+}
+
+.message-box-flex {
+    display: flex;
+}
+
+.message-box-flex div {
+    flex-grow: 1;
 }
 
 .times {
     font-size: 18pt;
+}
+
+.times-subtext {
+    font-size: 14pt;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
 }
